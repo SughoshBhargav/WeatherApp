@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+<style>
+    h4{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-weight: 100;
+    }
+
+</style>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h4 class="display-4">Whether Details of <%=city_name%> </h4>
+        <hr>
+        <p style="font-weight: normal;" class="lead" class="text-justify">The temperature in <%=city_name%> is : <%=temperature%></p>
+        <p style="font-weight: normal;" class="lead" class="text-justify">Thw whether is currently : <%=description%></p>
+        <img src="http://openweathermap.org/img/wn/<%=icon_url%>@2x.png" alt="icon">
+    </div>
+    </div>
+</body>
+</html>
